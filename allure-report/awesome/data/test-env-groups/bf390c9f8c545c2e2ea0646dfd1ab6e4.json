@@ -1,0 +1,1 @@
+{"id":"bf390c9f8c545c2e2ea0646dfd1ab6e4","fullName":"src/test/resources/com.Feature/Register.feature:232","name":"Verify the Password text entered into the 'Password' and 'Password Confirm' field of 'Register Account' functionality is toggled to hide its visibility","status":"passed","testResultsByEnv":{"default":"c0eb9fc8f394c27533f7caa9a87a8df5"}}

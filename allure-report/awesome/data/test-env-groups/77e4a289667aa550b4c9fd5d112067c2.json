@@ -1,0 +1,1 @@
+{"id":"77e4a289667aa550b4c9fd5d112067c2","fullName":"src/test/resources/com.Feature/Register.feature:208","name":"Verify whether the leading and trailing spaces entered into the Register Account fields are trimmed","status":"failed","testResultsByEnv":{"default":"af202b7fb543392c2c233b7f760f4022"}}
