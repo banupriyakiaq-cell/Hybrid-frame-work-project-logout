@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>TestNG:  Logout</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Logout</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Sep 07 17:36:58 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>87 seconds (87608 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Account Logout page", "Logout"</td>
+<td></td>
+<td>81</td>
+<td>com.TestRunner.TestRunner@7905a0b8</td></tr>
+<tr>
+<td title='com.TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify logging out by selecting logout option from right cloumm", "Logout"</td>
+<td></td>
+<td>81</td>
+<td>com.TestRunner.TestRunner@7905a0b8</td></tr>
+<tr>
+<td title='com.TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify logging out by selecting Logout option from My Account dropdown", "Logout"</td>
+<td></td>
+<td>84</td>
+<td>com.TestRunner.TestRunner@7905a0b8</td></tr>
+<tr>
+<td title='com.TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Logout option is not displayed under My Account menu before logging in", "Logout"</td>
+<td></td>
+<td>78</td>
+<td>com.TestRunner.TestRunner@7905a0b8</td></tr>
+<tr>
+<td title='com.TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify logging out and loggin in immediately after logout", "Logout"</td>
+<td></td>
+<td>86</td>
+<td>com.TestRunner.TestRunner@7905a0b8</td></tr>
+<tr>
+<td title='com.TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the UI of the Logout option and the Account Logout page", "Logout"</td>
+<td></td>
+<td>84</td>
+<td>com.TestRunner.TestRunner@7905a0b8</td></tr>
+<tr>
+<td title='com.TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Logout functionality in all the supported environments", "Logout"</td>
+<td></td>
+<td>14</td>
+<td>com.TestRunner.TestRunner@7905a0b8</td></tr>
+<tr>
+<td title='com.TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Logout option is not displayed under Right Column options before logging in", "Logout"</td>
+<td></td>
+<td>72</td>
+<td>com.TestRunner.TestRunner@7905a0b8</td></tr>
+<tr>
+<td title='com.TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify logout from an Account from a single place after logging into it from different places", "Logout"</td>
+<td></td>
+<td>85</td>
+<td>com.TestRunner.TestRunner@7905a0b8</td></tr>
+<tr>
+<td title='com.TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify logging out and browsing back", "Logout"</td>
+<td></td>
+<td>84</td>
+<td>com.TestRunner.TestRunner@7905a0b8</td></tr>
+<tr>
+<td title='com.TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Application session status, after logging and closing the Browser without logging out", "Logout"</td>
+<td></td>
+<td>86</td>
+<td>com.TestRunner.TestRunner@7905a0b8</td></tr>
+</table><p>
+</body>
+</html>
