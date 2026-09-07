@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
@@ -29,6 +30,11 @@ public class DriverFactory {
 			tldriver.set(new FirefoxDriver());
 		} else if (browser.equals("edge")) {
 			WebDriverManager.edgedriver().setup();
+			EdgeOptions options =new EdgeOptions();
+			options.addArguments("--headless=new");
+			options.addArguments("--disable-gpu");
+			options.addArguments("--no-sandbox");
+
 			tldriver.set(new EdgeDriver());
 		} else if (browser.equals("safari")) {
 			tldriver.set(new SafariDriver());
