@@ -21,6 +21,7 @@ public class DriverFactory {
 		if (browser.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
             ChromeOptions options = chromeOptionsSetup();
+            options.setBinary("C:\\Users\\Kiaq_Lap_63\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
 			tldriver.set(new ChromeDriver(options));
 
 		} else if (browser.equals("firefox")) {
