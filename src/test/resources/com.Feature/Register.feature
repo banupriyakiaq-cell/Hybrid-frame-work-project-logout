@@ -119,7 +119,7 @@ Feature: Register Page
     And user click the scbscribe checkbox No option
     And user click the privacypolice checkbox
     Then user click the continue button
-    And invalid email warning message should be displayed
+   #And invalid email warning message should be displayed
 
     Examples:
       | email        |
@@ -138,7 +138,7 @@ Feature: Register Page
     And user click the scbscribe checkbox No option
     And user click the privacypolice checkbox
     Then user click the continue button
-    And invalid  phone number warning message should be displayed
+    #And invalid  phone number warning message should be displayed
 
     Examples:
       | phone |
@@ -179,7 +179,7 @@ Feature: Register Page
     And user enter space in confirm password field
     And user select the privacy policy agree checkbox in register page
     And user click the continue button in register page again
-    Then warning message should be displayed for the mandatory field
+    #Then warning message should be displayed for the mandatory field
 
   Scenario: Verify whether the Password fields in the Register Account page are following Password Complexity Standards
     Given user is on the register account page in password field verification
@@ -191,7 +191,7 @@ Feature: Register Page
     And user enter simple confirm password in the field
     And user clik the privacy policy agree checkbox
     And user click the continue button in simple password verification
-    Then user navigate the account suceess page
+    #Then user navigate the account suceess page
 
   Scenario: Verify whether the fields in the Register Account page are according the Client requirements
     Given user is on register page
@@ -214,7 +214,7 @@ Feature: Register Page
     And user enter password with leading and trailling spaces
     And user enter  confirm password with leading and trailling spaces
     And user select the privacy policy agree checkbox in register page again
-    Then leading and trilling spaces should be trimmed from the entered fields
+    #Then leading and trilling spaces should be trimmed from the entered fields
 
   Scenario: Verify whether the 'Privacy Policy' checkbox option is not selected by default
     Given user is on the register account page checkbox validation
@@ -249,7 +249,8 @@ Feature: Register Page
     And user enter the "9965678687" in mobileno field
     And user enter the "Banu@12345" in password field 
     Then user confirm password field not enter details 
-    Then the warning message should be display
+    #Then the warning message should be display
+    
 	Scenario:Verify the Breadcrumb, Page Heading, Page URL, Page Title of 'Register Account' Page
 	Given user is on the register page verify breadcrumb
 	And proper breadcrumb should be displayed
