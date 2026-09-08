@@ -23,7 +23,7 @@ public class Logout {
 		elementUtils = new ElementUtils(driver);
 
 	}
-	@FindBy(xpath = "(//*[text()='My Account'])[1]")
+	@FindBy(xpath = "(//*[normalize-space()='My Account'])[1]")
 	public WebElement myaccountdropdown;
 	
 	@FindBy(xpath = "(//a[text()='Login'])[1]")

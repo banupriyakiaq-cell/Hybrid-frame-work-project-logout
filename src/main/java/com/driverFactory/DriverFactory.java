@@ -3,6 +3,7 @@ package com.driverFactory;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -24,7 +25,7 @@ public class DriverFactory {
 			WebDriverManager.chromedriver().setup();
 			 
             ChromeOptions options = chromeOptionsSetup();
-            options.setBinary("C:\\Users\\Kiaq_Lap_63\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+           // options.setBinary("C:\\Users\\Kiaq_Lap_63\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
  			tldriver.set(new ChromeDriver(options));
 
 		} else if (browser.equals("firefox")) {
@@ -33,8 +34,8 @@ public class DriverFactory {
 		} else if (browser.equals("edge")) {
 			WebDriverManager.edgedriver().setup();
 			EdgeOptions options =new EdgeOptions();
-			
-			tldriver.set(new EdgeDriver());
+			options.setPageLoadStrategy(PageLoadStrategy.EAGER);
+			tldriver.set(new EdgeDriver(options));
 		} else if (browser.equals("safari")) {
 			tldriver.set(new SafariDriver());
 		} else {
