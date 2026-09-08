@@ -1,5 +1,7 @@
 package com.hooksClass;
 
+import java.time.Duration;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -7,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import com.driverFactory.BrowserContext;
 import com.driverFactory.DriverFactory;
 import com.utilities.ConfigReader;
+import com.utilities.ConstantUtils;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -28,6 +31,7 @@ public class hooks {
 		String browser = BrowserContext.getBrowser().toString();
 		Allure.label("browser", browser);
 		Allure.parameter("Browser", browser);
+		DriverFactory.getDriver().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(ConstantUtils.PAGE_LOAD_TIME));
 		DriverFactory.getDriver().get(ConfigReader.getProperty("url"));
 		DriverFactory.getDriver().manage().window().maximize();
 	}
