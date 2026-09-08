@@ -11,6 +11,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
+import io.cucumber.core.backend.Options;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverFactory {
@@ -21,7 +22,9 @@ public class DriverFactory {
 		System.out.println("browser value is:" + browser);
 		if (browser.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
+			 
             ChromeOptions options = chromeOptionsSetup();
+            options.setBinary("C:\\Users\\Kiaq_Lap_63\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
  			tldriver.set(new ChromeDriver(options));
 
 		} else if (browser.equals("firefox")) {
