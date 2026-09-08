@@ -26,7 +26,7 @@ public class Register {
 	}
 
 	// homepage
-	@FindBy(xpath = "(//*[text()='My Account'])[1]")
+	@FindBy(xpath = "(//*[normalize-space()='My Account'])[1]")
 	public WebElement Myaccountbutton;
 
 	@FindBy(xpath = "//a[text()='Register']")
