@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="82" passed="82" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-07T18:15:11 IST" name="Parallel Test Suite" finished-at="2026-09-07T18:27:44 IST" duration-ms="753279">
+  <suite started-at="2026-09-08T09:47:06 IST" name="Parallel Test Suite" finished-at="2026-09-08T09:57:43 IST" duration-ms="636547">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-09-07T18:15:11 IST" name="Chrome Test" finished-at="2026-09-07T18:27:44 IST" duration-ms="752945">
+    <test started-at="2026-09-08T09:47:06 IST" name="Chrome Test" finished-at="2026-09-08T09:57:43 IST" duration-ms="636293">
       <class name="com.TestRunner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:11 IST" name="setUpClass" finished-at="2026-09-07T18:15:11 IST" duration-ms="581" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:06 IST" name="setUpClass" finished-at="2026-09-08T09:47:07 IST" duration-ms="640" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="24" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="23" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="23" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="23" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="19" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,7 +77,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -88,7 +88,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,7 +110,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -121,7 +121,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -132,135 +132,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:18:55 IST" duration-ms="223903" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Registering an Account by providing the existing account details"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:18:55 IST" duration-ms="222933" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Registering an Account by providing an invalid email address into the E-Mail field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:19:04 IST" duration-ms="232639" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Registering an Account when 'Yes' option is selected for Newsletter field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:19:02 IST" duration-ms="230358" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["different passwords into 'Password' and 'Password Confirm' fields"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:19:04 IST" duration-ms="232637" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Registering an Account when 'No' option is selected for Newsletter field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:19:05 IST" duration-ms="233086" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Registering an Account by providing all the fields"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:18:53 IST" duration-ms="221436" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Registering an Account by providing only the Mandatory fields"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:17:26 IST" duration-ms="134055" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify proper notification messages are displayed for the mandatory fields"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:18:17 IST" duration-ms="185904" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:17 IST" duration-ms="189676" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -276,7 +148,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:18:49 IST" duration-ms="217367" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:43 IST" duration-ms="215361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Registering an Account by providing only the Mandatory fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:21 IST" duration-ms="193381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Registering an Account by providing all the fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:39 IST" duration-ms="211468" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -292,18 +196,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:17:26 IST" name="setBrowser" finished-at="2026-09-07T18:17:26 IST" duration-ms="21" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:38 IST" duration-ms="211175" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA["Verify Registering an Account when 'Yes' option is selected for Newsletter field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:17:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:19:14 IST" duration-ms="108647" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:24 IST" duration-ms="196298" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -319,7 +228,71 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:18:18 IST" name="setBrowser" finished-at="2026-09-07T18:18:18 IST" duration-ms="2" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:43 IST" duration-ms="215316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Registering an Account by providing the existing account details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:40 IST" duration-ms="213173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["different passwords into 'Password' and 'Password Confirm' fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:43 IST" duration-ms="215705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Registering an Account when 'No' option is selected for Newsletter field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:49:28 IST" duration-ms="140777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify proper notification messages are displayed for the mandatory fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:49:28 IST" name="setBrowser" finished-at="2026-09-08T09:49:28 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -330,7 +303,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:18:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:21:45 IST" duration-ms="207660" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:49:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:29 IST" duration-ms="61248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Registering an Account by providing an invalid email address into the E-Mail field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:17 IST" name="setBrowser" finished-at="2026-09-08T09:50:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:53:15 IST" duration-ms="178388" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -346,7 +346,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:18:49 IST" name="setBrowser" finished-at="2026-09-07T18:18:49 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:21 IST" name="setBrowser" finished-at="2026-09-08T09:50:21 IST" duration-ms="13" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -357,7 +357,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:18:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:22:45 IST" duration-ms="236516" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:53:56 IST" duration-ms="215567" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -373,7 +373,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:18:53 IST" name="setBrowser" finished-at="2026-09-07T18:18:53 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:24 IST" name="setBrowser" finished-at="2026-09-08T09:50:24 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -384,7 +384,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:18:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:21:36 IST" duration-ms="162753" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:53:02 IST" duration-ms="158209" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -400,7 +400,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:18:55 IST" name="setBrowser" finished-at="2026-09-07T18:18:55 IST" duration-ms="59" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:30 IST" name="setBrowser" finished-at="2026-09-08T09:50:30 IST" duration-ms="351" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -411,7 +411,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:18:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:21:05 IST" duration-ms="130618" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:52:44 IST" duration-ms="134128" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -427,7 +427,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:18:56 IST" name="setBrowser" finished-at="2026-09-07T18:18:56 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:39 IST" name="setBrowser" finished-at="2026-09-08T09:50:39 IST" duration-ms="77" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -438,7 +438,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:18:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:20:28 IST" duration-ms="92326" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:39 IST" name="setBrowser" finished-at="2026-09-08T09:50:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:52:47 IST" duration-ms="127861" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -454,18 +465,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:19:02 IST" name="setBrowser" finished-at="2026-09-07T18:19:02 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:19:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:22:52 IST" duration-ms="229355" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:54:16 IST" duration-ms="216743" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -481,7 +481,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:19:05 IST" name="setBrowser" finished-at="2026-09-07T18:19:05 IST" duration-ms="44" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:41 IST" name="setBrowser" finished-at="2026-09-08T09:50:42 IST" duration-ms="258" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -492,29 +492,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:19:05 IST" name="setBrowser" finished-at="2026-09-07T18:19:05 IST" duration-ms="45" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:19:05 IST" name="setBrowser" finished-at="2026-09-07T18:19:05 IST" duration-ms="69" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:19:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:23:06 IST" duration-ms="240979" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:54:19 IST" duration-ms="217162" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -530,7 +508,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:19:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:22:51 IST" duration-ms="226509" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:43 IST" name="setBrowser" finished-at="2026-09-08T09:50:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:54:20 IST" duration-ms="217261" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -546,7 +535,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:19:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:23:10 IST" duration-ms="244796" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:43 IST" name="setBrowser" finished-at="2026-09-08T09:50:43 IST" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:54:25 IST" duration-ms="221842" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -562,7 +562,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:19:14 IST" name="setBrowser" finished-at="2026-09-07T18:19:14 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:43 IST" name="setBrowser" finished-at="2026-09-08T09:50:43 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -573,7 +573,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:19:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:23:04 IST" duration-ms="229442" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:50:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:54:07 IST" duration-ms="203653" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -589,7 +589,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:20:28 IST" name="setBrowser" finished-at="2026-09-07T18:20:28 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:52:44 IST" name="setBrowser" finished-at="2026-09-08T09:52:44 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -600,7 +600,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:20:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:23:04 IST" duration-ms="155967" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:52:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:55:02 IST" duration-ms="137594" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -616,7 +616,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:21:05 IST" name="setBrowser" finished-at="2026-09-07T18:21:05 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:52:47 IST" name="setBrowser" finished-at="2026-09-08T09:52:47 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -627,7 +627,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:21:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:21:05 IST" duration-ms="105" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:52:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:52:47 IST" duration-ms="140" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -643,7 +643,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:21:06 IST" name="setBrowser" finished-at="2026-09-07T18:21:06 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:52:47 IST" name="setBrowser" finished-at="2026-09-08T09:52:47 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -654,7 +654,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:21:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:22:18 IST" duration-ms="72384" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:52:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:54:20 IST" duration-ms="93218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -670,7 +670,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:21:36 IST" name="setBrowser" finished-at="2026-09-07T18:21:36 IST" duration-ms="35" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:53:02 IST" name="setBrowser" finished-at="2026-09-08T09:53:02 IST" duration-ms="14" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -681,7 +681,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:21:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:23:08 IST" duration-ms="92138" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:53:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:54:03 IST" duration-ms="61483" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -697,7 +697,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:21:45 IST" name="setBrowser" finished-at="2026-09-07T18:21:45 IST" duration-ms="65" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:53:16 IST" name="setBrowser" finished-at="2026-09-08T09:53:16 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -708,7 +708,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:21:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:23:40 IST" duration-ms="114618" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:53:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:55:18 IST" duration-ms="122338" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -724,7 +724,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:22:18 IST" name="setBrowser" finished-at="2026-09-07T18:22:18 IST" duration-ms="35" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:53:56 IST" name="setBrowser" finished-at="2026-09-08T09:53:56 IST" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -735,7 +735,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:22:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:23:26 IST" duration-ms="67508" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:53:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:54:37 IST" duration-ms="40453" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -751,7 +751,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:22:46 IST" name="setBrowser" finished-at="2026-09-07T18:22:46 IST" duration-ms="51" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:54:03 IST" name="setBrowser" finished-at="2026-09-08T09:54:03 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -762,7 +762,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:22:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:26:01 IST" duration-ms="194786" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:54:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:55:08 IST" duration-ms="65073" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -778,7 +778,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:22:51 IST" name="setBrowser" finished-at="2026-09-07T18:22:51 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:54:07 IST" name="setBrowser" finished-at="2026-09-08T09:54:07 IST" duration-ms="45" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -789,7 +789,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:22:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:26:06 IST" duration-ms="194264" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:54:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:55:59 IST" duration-ms="111262" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -805,7 +805,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:22:52 IST" name="setBrowser" finished-at="2026-09-07T18:22:52 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:54:16 IST" name="setBrowser" finished-at="2026-09-08T09:54:16 IST" duration-ms="26" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -816,7 +816,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:22:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:26:04 IST" duration-ms="192271" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:54:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:14 IST" duration-ms="177657" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -832,7 +832,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:23:04 IST" name="setBrowser" finished-at="2026-09-07T18:23:04 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:54:19 IST" name="setBrowser" finished-at="2026-09-08T09:54:19 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -843,7 +843,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:23:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:27:29 IST" duration-ms="264914" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:54:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:36 IST" duration-ms="197158" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -859,7 +859,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:23:04 IST" name="setBrowser" finished-at="2026-09-07T18:23:04 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:54:20 IST" name="setBrowser" finished-at="2026-09-08T09:54:20 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -870,7 +870,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:23:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:27:14 IST" duration-ms="248260" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:54:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:32 IST" duration-ms="192137" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -886,7 +886,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:23:06 IST" name="setBrowser" finished-at="2026-09-07T18:23:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:54:20 IST" name="setBrowser" finished-at="2026-09-08T09:54:20 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -897,7 +897,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:23:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:27:38 IST" duration-ms="270585" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:54:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:43 IST" duration-ms="202169" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -913,7 +913,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:23:08 IST" name="setBrowser" finished-at="2026-09-07T18:23:08 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:54:25 IST" name="setBrowser" finished-at="2026-09-08T09:54:26 IST" duration-ms="632" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -924,7 +924,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:23:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:27:04 IST" duration-ms="236002" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:54:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:31 IST" duration-ms="185233" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -940,7 +940,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:23:10 IST" name="setBrowser" finished-at="2026-09-07T18:23:10 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:54:37 IST" name="setBrowser" finished-at="2026-09-08T09:54:37 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -951,7 +951,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:23:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:25:54 IST" duration-ms="163989" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:54:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:56:36 IST" duration-ms="118480" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -967,7 +967,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:23:26 IST" name="setBrowser" finished-at="2026-09-07T18:23:26 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:55:03 IST" name="setBrowser" finished-at="2026-09-08T09:55:03 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -978,7 +978,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:23:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:26:23 IST" duration-ms="177453" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:55:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:56:58 IST" duration-ms="115571" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -994,7 +994,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:23:40 IST" name="setBrowser" finished-at="2026-09-07T18:23:40 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:55:09 IST" name="setBrowser" finished-at="2026-09-08T09:55:09 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1005,7 +1005,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:23:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:27:29 IST" duration-ms="228664" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:55:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:38 IST" duration-ms="149232" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1021,7 +1021,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:25:54 IST" name="setBrowser" finished-at="2026-09-07T18:25:54 IST" duration-ms="26" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:55:18 IST" name="setBrowser" finished-at="2026-09-08T09:55:18 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1032,7 +1032,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:25:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:27:43 IST" duration-ms="109569" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:55:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:41 IST" duration-ms="143107" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1048,7 +1048,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:26:01 IST" name="setBrowser" finished-at="2026-09-07T18:26:01 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:55:59 IST" name="setBrowser" finished-at="2026-09-08T09:55:59 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1059,7 +1059,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:26:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:27:40 IST" duration-ms="99458" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:55:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:38 IST" duration-ms="99284" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1075,7 +1075,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:26:04 IST" name="setBrowser" finished-at="2026-09-07T18:26:04 IST" duration-ms="42" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:56:36 IST" name="setBrowser" finished-at="2026-09-08T09:56:36 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1086,7 +1086,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:26:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:27:37 IST" duration-ms="93071" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:56:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:42 IST" duration-ms="66375" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1102,7 +1102,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:26:06 IST" name="setBrowser" finished-at="2026-09-07T18:26:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:56:58 IST" name="setBrowser" finished-at="2026-09-08T09:56:58 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1113,7 +1113,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:26:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:27:44 IST" duration-ms="98040" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:56:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:39 IST" duration-ms="40880" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1129,15 +1129,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-07T18:27:44 IST" name="tearDownClass" finished-at="2026-09-07T18:27:44 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.TestRunner@7905a0b8]" started-at="2026-09-08T09:57:43 IST" name="tearDownClass" finished-at="2026-09-08T09:57:43 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.TestRunner.TestRunner -->
     </test> <!-- Chrome Test -->
-    <test started-at="2026-09-07T18:15:11 IST" name="Edge Test" finished-at="2026-09-07T18:27:44 IST" duration-ms="753279">
+    <test started-at="2026-09-08T09:47:06 IST" name="Edge Test" finished-at="2026-09-08T09:57:43 IST" duration-ms="636547">
       <class name="com.TestRunner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:11 IST" name="setUpClass" finished-at="2026-09-07T18:15:11 IST" duration-ms="581" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:06 IST" name="setUpClass" finished-at="2026-09-08T09:47:07 IST" duration-ms="640" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1148,7 +1148,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="16" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1159,7 +1159,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="18" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1170,7 +1170,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1181,7 +1181,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1192,7 +1192,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1203,7 +1203,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1214,7 +1214,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="14" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1225,7 +1225,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="16" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1236,7 +1236,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="26" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="16" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1247,7 +1247,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:11 IST" name="setBrowser" finished-at="2026-09-07T18:15:11 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="setBrowser" finished-at="2026-09-08T09:47:07 IST" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1258,71 +1258,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:19:16 IST" duration-ms="244625" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Registering an Account by providing only the Mandatory fields"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:18:43 IST" duration-ms="211607" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Registering an Account when 'Yes' option is selected for Newsletter field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:19:04 IST" duration-ms="232056" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["different passwords into 'Password' and 'Password Confirm' fields"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:18:27 IST" duration-ms="195131" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify different ways of navigating to 'Register Account' page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:19:13 IST" duration-ms="241349" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:29 IST" duration-ms="201560" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1338,11 +1274,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:19:16 IST" duration-ms="244757" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:28 IST" duration-ms="200313" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify Registering an Account when 'No' option is selected for Newsletter field"]]>
+                <![CDATA["Verify Registering an Account by providing only the Mandatory fields"]]>
               </value>
             </param>
             <param index="1">
@@ -1354,23 +1290,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:17:59 IST" duration-ms="167615" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify proper notification messages are displayed for the mandatory fields"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:19:12 IST" duration-ms="240514" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:42 IST" duration-ms="214329" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1386,7 +1306,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:18:55 IST" duration-ms="223587" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:26 IST" duration-ms="199157" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1402,7 +1322,71 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:19:08 IST" duration-ms="236107" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:49:59 IST" duration-ms="171295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify different ways of navigating to 'Register Account' page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:49:25 IST" duration-ms="138086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify proper notification messages are displayed for the mandatory fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:23 IST" duration-ms="196078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["different passwords into 'Password' and 'Password Confirm' fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:36 IST" duration-ms="208626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Registering an Account when 'No' option is selected for Newsletter field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:28 IST" duration-ms="200454" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1418,7 +1402,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:17:59 IST" name="setBrowser" finished-at="2026-09-07T18:17:59 IST" duration-ms="26" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:47:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:37 IST" duration-ms="210025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Registering an Account when 'Yes' option is selected for Newsletter field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:49:25 IST" name="setBrowser" finished-at="2026-09-08T09:49:25 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1429,7 +1429,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:17:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:19:20 IST" duration-ms="81205" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:49:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:43 IST" duration-ms="77187" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1445,7 +1445,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:18:27 IST" name="setBrowser" finished-at="2026-09-07T18:18:27 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:49:59 IST" name="setBrowser" finished-at="2026-09-08T09:49:59 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1456,7 +1456,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:18:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:20:17 IST" duration-ms="110414" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:49:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:50:48 IST" duration-ms="49594" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1472,7 +1472,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:18:43 IST" name="setBrowser" finished-at="2026-09-07T18:18:43 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:23 IST" name="setBrowser" finished-at="2026-09-08T09:50:23 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1483,7 +1483,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:18:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:22:35 IST" duration-ms="231883" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:54:06 IST" duration-ms="222677" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1499,7 +1499,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:18:55 IST" name="setBrowser" finished-at="2026-09-07T18:18:55 IST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:27 IST" name="setBrowser" finished-at="2026-09-08T09:50:27 IST" duration-ms="213" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1510,7 +1510,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:18:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:21:50 IST" duration-ms="174584" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:53:11 IST" duration-ms="164026" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1526,7 +1526,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:19:04 IST" name="setBrowser" finished-at="2026-09-07T18:19:04 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:28 IST" name="setBrowser" finished-at="2026-09-08T09:50:28 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1537,7 +1537,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:19:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:20:58 IST" duration-ms="114343" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:52:25 IST" duration-ms="116891" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1553,7 +1553,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:19:08 IST" name="setBrowser" finished-at="2026-09-07T18:19:08 IST" duration-ms="77" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:28 IST" name="setBrowser" finished-at="2026-09-08T09:50:28 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1564,7 +1564,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:19:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:21:26 IST" duration-ms="138147" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:52:25 IST" duration-ms="116975" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1580,7 +1580,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:19:12 IST" name="setBrowser" finished-at="2026-09-07T18:19:12 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:29 IST" name="setBrowser" finished-at="2026-09-08T09:50:29 IST" duration-ms="16" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1591,7 +1591,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:19:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:23:14 IST" duration-ms="241927" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:53:50 IST" duration-ms="200754" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1607,7 +1607,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:19:13 IST" name="setBrowser" finished-at="2026-09-07T18:19:14 IST" duration-ms="272" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:36 IST" name="setBrowser" finished-at="2026-09-08T09:50:36 IST" duration-ms="146" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1618,7 +1618,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:19:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:23:26 IST" duration-ms="251882" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:54:12 IST" duration-ms="215378" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1634,7 +1634,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:19:16 IST" name="setBrowser" finished-at="2026-09-07T18:19:16 IST" duration-ms="93" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:37 IST" name="setBrowser" finished-at="2026-09-08T09:50:37 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1645,18 +1645,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:19:17 IST" name="setBrowser" finished-at="2026-09-07T18:19:17 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:19:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:23:20 IST" duration-ms="242828" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:54:19 IST" duration-ms="221476" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1672,7 +1661,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:19:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:23:18 IST" duration-ms="240325" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:42 IST" name="setBrowser" finished-at="2026-09-08T09:50:42 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:54:29 IST" duration-ms="226617" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1688,7 +1688,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:19:20 IST" name="setBrowser" finished-at="2026-09-07T18:19:21 IST" duration-ms="81" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:43 IST" name="setBrowser" finished-at="2026-09-08T09:50:43 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1699,7 +1699,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:19:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:23:04 IST" duration-ms="223106" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:54:17 IST" duration-ms="213934" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1715,7 +1715,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:20:19 IST" name="setBrowser" finished-at="2026-09-07T18:20:19 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:48 IST" name="setBrowser" finished-at="2026-09-08T09:50:48 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1726,7 +1726,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:20:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:23:14 IST" duration-ms="174493" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:50:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:53:07 IST" duration-ms="138662" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1742,7 +1742,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:20:58 IST" name="setBrowser" finished-at="2026-09-07T18:20:58 IST" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:52:25 IST" name="setBrowser" finished-at="2026-09-08T09:52:25 IST" duration-ms="29" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1753,7 +1753,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:20:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:20:59 IST" duration-ms="271" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:52:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:52:25 IST" duration-ms="54" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1769,7 +1769,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:20:59 IST" name="setBrowser" finished-at="2026-09-07T18:20:59 IST" duration-ms="25" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:52:25 IST" name="setBrowser" finished-at="2026-09-08T09:52:25 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1780,7 +1780,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:20:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:22:11 IST" duration-ms="72589" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:52:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:53:36 IST" duration-ms="70815" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1796,7 +1796,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:21:26 IST" name="setBrowser" finished-at="2026-09-07T18:21:26 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:52:25 IST" name="setBrowser" finished-at="2026-09-08T09:52:25 IST" duration-ms="13" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1807,7 +1807,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:21:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:22:25 IST" duration-ms="58133" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:52:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:53:11 IST" duration-ms="45680" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1823,7 +1823,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:21:50 IST" name="setBrowser" finished-at="2026-09-07T18:21:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:53:07 IST" name="setBrowser" finished-at="2026-09-08T09:53:07 IST" duration-ms="71" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1834,7 +1834,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:21:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:23:23 IST" duration-ms="92620" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:53:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:55:26 IST" duration-ms="138411" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1850,7 +1850,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:22:11 IST" name="setBrowser" finished-at="2026-09-07T18:22:11 IST" duration-ms="27" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:53:11 IST" name="setBrowser" finished-at="2026-09-08T09:53:11 IST" duration-ms="19" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1861,7 +1861,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:22:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:23:26 IST" duration-ms="74788" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:53:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:54:27 IST" duration-ms="76486" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1877,7 +1877,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:22:25 IST" name="setBrowser" finished-at="2026-09-07T18:22:25 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:53:11 IST" name="setBrowser" finished-at="2026-09-08T09:53:11 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1888,7 +1888,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:22:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:23:48 IST" duration-ms="83641" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:53:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:54:25 IST" duration-ms="73520" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1904,7 +1904,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:22:35 IST" name="setBrowser" finished-at="2026-09-07T18:22:35 IST" duration-ms="46" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:53:36 IST" name="setBrowser" finished-at="2026-09-08T09:53:36 IST" duration-ms="46" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1915,7 +1915,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:22:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:23:41 IST" duration-ms="65850" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:53:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:54:35 IST" duration-ms="59440" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1931,7 +1931,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:04 IST" name="setBrowser" finished-at="2026-09-07T18:23:04 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:53:50 IST" name="setBrowser" finished-at="2026-09-08T09:53:50 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1942,7 +1942,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:26:39 IST" duration-ms="212434" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:53:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:54:45 IST" duration-ms="54920" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1958,7 +1958,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:14 IST" name="setBrowser" finished-at="2026-09-07T18:23:14 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:54:06 IST" name="setBrowser" finished-at="2026-09-08T09:54:06 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1969,34 +1969,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:14 IST" name="setBrowser" finished-at="2026-09-07T18:23:14 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:27:19 IST" duration-ms="244374" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify logging out by selecting logout option from right cloumm"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Logout"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:27:27 IST" duration-ms="252387" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:54:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:25 IST" duration-ms="198355" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2012,7 +1985,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:18 IST" name="setBrowser" finished-at="2026-09-07T18:23:18 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:54:12 IST" name="setBrowser" finished-at="2026-09-08T09:54:12 IST" duration-ms="47" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2023,7 +1996,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:27:43 IST" duration-ms="264375" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:54:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:22 IST" duration-ms="190018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify logging out by selecting logout option from right cloumm"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:54:17 IST" name="setBrowser" finished-at="2026-09-08T09:54:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:54:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:43 IST" duration-ms="206014" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2039,7 +2039,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:20 IST" name="setBrowser" finished-at="2026-09-07T18:23:20 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:54:19 IST" name="setBrowser" finished-at="2026-09-08T09:54:19 IST" duration-ms="44" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2050,7 +2050,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:27:22 IST" duration-ms="242547" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:54:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:31 IST" duration-ms="192063" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2066,7 +2066,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:23 IST" name="setBrowser" finished-at="2026-09-07T18:23:23 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:54:25 IST" name="setBrowser" finished-at="2026-09-08T09:54:25 IST" duration-ms="298" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2077,7 +2077,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:26:11 IST" duration-ms="168443" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:54:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:56:03 IST" duration-ms="96556" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2093,7 +2093,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:26 IST" name="setBrowser" finished-at="2026-09-07T18:23:26 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:54:27 IST" name="setBrowser" finished-at="2026-09-08T09:54:27 IST" duration-ms="376" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2104,7 +2104,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:26:24 IST" duration-ms="177706" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:54:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:56:42 IST" duration-ms="134488" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2120,7 +2120,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:27 IST" name="setBrowser" finished-at="2026-09-07T18:23:27 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:54:29 IST" name="setBrowser" finished-at="2026-09-08T09:54:29 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2131,7 +2131,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:27:27 IST" duration-ms="239817" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:54:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:36 IST" duration-ms="187181" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2147,7 +2147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:42 IST" name="setBrowser" finished-at="2026-09-07T18:23:42 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:54:35 IST" name="setBrowser" finished-at="2026-09-08T09:54:35 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2158,7 +2158,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:27:37 IST" duration-ms="234969" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:54:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:42 IST" duration-ms="186420" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2174,7 +2174,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:48 IST" name="setBrowser" finished-at="2026-09-07T18:23:48 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:54:45 IST" name="setBrowser" finished-at="2026-09-08T09:54:45 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2185,7 +2185,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:23:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:26:42 IST" duration-ms="173787" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:54:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:30 IST" duration-ms="164754" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2201,7 +2201,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:26:12 IST" name="setBrowser" finished-at="2026-09-07T18:26:12 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:55:26 IST" name="setBrowser" finished-at="2026-09-08T09:55:26 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2212,7 +2212,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:26:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:27:44 IST" duration-ms="91811" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:55:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:22 IST" duration-ms="115771" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2228,7 +2228,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:26:24 IST" name="setBrowser" finished-at="2026-09-07T18:26:24 IST" duration-ms="56" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:56:03 IST" name="setBrowser" finished-at="2026-09-08T09:56:03 IST" duration-ms="106" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2239,7 +2239,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:26:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-07T18:27:44 IST" duration-ms="80233" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:56:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T09:57:27 IST" duration-ms="83952" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2255,7 +2255,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-07T18:27:44 IST" name="tearDownClass" finished-at="2026-09-07T18:27:44 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.TestRunner@4f4c4b1a]" started-at="2026-09-08T09:57:43 IST" name="tearDownClass" finished-at="2026-09-08T09:57:43 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

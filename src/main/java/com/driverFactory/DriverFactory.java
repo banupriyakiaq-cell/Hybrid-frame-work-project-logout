@@ -22,8 +22,7 @@ public class DriverFactory {
 		if (browser.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
             ChromeOptions options = chromeOptionsSetup();
-            options.setBinary("C:\\Users\\Kiaq_Lap_63\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
-			tldriver.set(new ChromeDriver(options));
+ 			tldriver.set(new ChromeDriver(options));
 
 		} else if (browser.equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
@@ -31,10 +30,7 @@ public class DriverFactory {
 		} else if (browser.equals("edge")) {
 			WebDriverManager.edgedriver().setup();
 			EdgeOptions options =new EdgeOptions();
-			options.addArguments("--headless=new");
-			options.addArguments("--disable-gpu");
-			options.addArguments("--no-sandbox");
-
+			
 			tldriver.set(new EdgeDriver());
 		} else if (browser.equals("safari")) {
 			tldriver.set(new SafariDriver());
