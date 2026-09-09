@@ -1,0 +1,15 @@
+pipline{
+	agent any 
+	stages{
+		stage('Checkout'){
+			steps{
+				git'https://github.com/banupriyakiaq-cell/Hybrid-frame-work-project-logout'
+			}
+		}
+		stage('Build & test'){
+			steps{
+				bat 'mvn clean test'
+			}
+		}
+	}
+}
