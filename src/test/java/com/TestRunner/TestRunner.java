@@ -2,6 +2,7 @@ package com.TestRunner;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
  import com.driverFactory.BrowserContext;
@@ -16,13 +17,13 @@ import io.cucumber.testng.CucumberOptions;
 public class TestRunner extends AbstractTestNGCucumberTests {
 		@Parameters("browser")
 		@BeforeMethod
-		public void setBrowser( String browser) {
+		public void setBrowser(@Optional("chrome")String browser) {
 			BrowserContext.setBrowser(browser);
 		}
 	 @Override
-	 @DataProvider(parallel = true)
+	 @DataProvider(parallel = false)
 	 public Object[][] scenarios(){
-		 return super.scenarios();
+	 return super.scenarios();
 	 }
 	 
 

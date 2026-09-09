@@ -35,6 +35,8 @@ public class DriverFactory {
 			WebDriverManager.edgedriver().setup();
 			EdgeOptions options =new EdgeOptions();
 			options.setPageLoadStrategy(PageLoadStrategy.EAGER);
+			//options.addArguments("--headless-new");
+			//options.addArguments("--disable-gpu");
 			tldriver.set(new EdgeDriver(options));
 		} else if (browser.equals("safari")) {
 			tldriver.set(new SafariDriver());
