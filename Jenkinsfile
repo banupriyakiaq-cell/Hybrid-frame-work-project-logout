@@ -19,5 +19,5 @@ allure([results: [[path:'allure-results']]
 }
 }post{
 always{ echo 'pipeline execution completed.'}
-sucess{echo 'Tests passed successfully.'}
+success{echo 'Tests passed successfully.'}
 failure{echo 'Tests failed. Check console Output.'}}}
