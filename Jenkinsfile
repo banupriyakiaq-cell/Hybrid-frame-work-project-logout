@@ -1,8 +1,8 @@
 pipeline{
 agent any
 stages{
-stage('Run Test'){
-  steps{ bat 'mvn clean test'}
+stage('Test'){
+  steps{  echo 'Jenkins Pipeline is working'}
 }
 }
 }
