@@ -29,7 +29,7 @@ post{
       subject:"[CI/CD]$
       {env.JOB_NAME}-Build #$
       {env.BUILD_NUMBER}-$
-      {currentBuild.currentResult}"
+      {currentBuild.currentResult}",
       body:"""
       Hi Team,
       The CI/CD pipeline execution has completed.
@@ -38,6 +38,7 @@ post{
       Build Staus :$
       {currentBuild.currentResult}
       Test Excution : completed
+      Allure Report :Available in jenkins
       HTML report: Available in jenkins
       Build Log :Attached
 
