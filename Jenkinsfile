@@ -5,7 +5,13 @@ stage('Test Execution'){
   steps{  echo 'Starting test execution...'
        bat'mvn clean test'}
 }
-}stage('Publish HTML Report'){
+}stage('Allure Report'){
+  steps{
+    allure([results:[[path:'target/allure-results']]
+            ])
+  }
+}
+  stage('Publish HTML Report'){
   steps{
    
   publishHTML([allowMissing:true,
@@ -39,7 +45,7 @@ post{
 
       Regards,
       QA Team
-      Banu priya,
+    
 """,
       to:'Banupriya.kiaq@gmail.com'
       attachLog: true)
