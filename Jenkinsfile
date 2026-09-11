@@ -8,7 +8,7 @@ stage('Test Execution'){
 
   stage('Allure Report'){
   steps{
-    allure([results:[[path:  n 'target/allure-results']]
+    allure([results:[[path: 'target/allure-results']]
             ])
   }
 }stage('Publish HTML Report'){
