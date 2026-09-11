@@ -26,11 +26,11 @@ stage('Test Execution'){
 post{
   always{
     emailext(
-      subject:"[CI/CD]$
-      {env.JOB_NAME}-Build #$
-      {env.BUILD_NUMBER}-$
+      subject: "[CI/CD] $
+      {env.JOB_NAME} - Build #$
+      {env.BUILD_NUMBER} - $
       {currentBuild.currentResult}",
-      body:"""
+      body: """
       Hi Team,
       The CI/CD pipeline execution has completed.
       Project : ${env.JOB_NAME}
