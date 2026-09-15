@@ -132,7 +132,7 @@
             ) 
  
             emailext( 
-                to: 'vasanthvj.kiaq@gmail.com', 
+                to: 'banupriya.kiaq@gmail.com', 
                 subject: "[CI/CD] Pipeline1 - Build #${env.BUILD_NUMBER} - ${currentBuild.currentResult}", 
                 body: """ 
 Hi Team, 
