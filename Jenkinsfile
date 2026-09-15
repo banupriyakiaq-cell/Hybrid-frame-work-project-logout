@@ -10,18 +10,30 @@ stage('Test Execution'){
   steps{
     allure([results:[[path: 'target/allure-results']]
             ])
+  }stage('Generate Allure HTML Report'){
+    steps{bat'allure generate target/allure-results -o target/allure-report --clean'}
   }
+    
 }stage('Publish HTML Report'){
   steps{
    
   publishHTML([allowMissing:true,
                alwaysLinkToLastBuild:true,
                keepAll:true,
-               reportDir:'target/surefire-reports',
+               reportDir:'target/allure-report',
                reportFiles:'intex.html',
-               reportName:'Test Automation HTML Report'])
+               reportName:'Allure Test Automation Report'])
 }
     }
+  stage('Create Allure Zip'){
+    steps{
+      bat '''
+      powershell-command "Compress-Archive -path 
+      target\\allure-report\\*
+      -DestinationPath target\\allure-report.zip -Force"
+      '''
+    }
+  }
 }
 post{
   always{
@@ -38,8 +50,8 @@ post{
       Build Staus :$
       {currentBuild.currentResult}
       Test Excution : completed
-      Allure Report :Available in jenkins
-      HTML report: Available in jenkins
+      Allure Report :Attached
+      HTML report: Attached
       Build Log :Attached
 
       Please check the jenkins build for detailed test results.
@@ -49,6 +61,7 @@ post{
     
 """,
       to:'Banupriya.kiaq@gmail.com'
+      attachmentsPattern:'target/allure-report.zip',
       attachLog: true)
       }
    
