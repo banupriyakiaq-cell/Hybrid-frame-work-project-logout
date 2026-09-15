@@ -39,15 +39,7 @@ stage('Test Execution'){
                reportName:'Allure Test Automation Report'])
 }
     }
-  stage('Create Allure Zip'){
-    steps{
-      bat '''
-      powershell-command "Compress-Archive -path 
-      target\\allure-report\\*
-      -DestinationPath target\\allure-report.zip -Force"
-      '''
-    }
-  }
+  
 }
 post{
   always{
@@ -75,7 +67,7 @@ post{
     
 """,
       to:'Banupriya.kiaq@gmail.com'
-      attachmentsPattern:'target/allure-report.zip',
+      attachmentsPattern:'target/Allure-Report.pdf',
       attachLog: true)
       }
    
