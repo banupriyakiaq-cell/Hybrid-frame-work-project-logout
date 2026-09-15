@@ -17,13 +17,19 @@ stage('Test Execution'){
   stage('Generate Allure PDF'){
     steps{
       bat '''
+      echo Checking Allure HTML report...
+      dir target\\allure-report
+      echo Generating PDF...
       "C:\\Program Files\\Google\\Chrome\\Application\\Chrome.exe" ^
       --headless ^
       --disable-gpu ^
       --no-sandbox ^
-      --print-to-pdf="target\\Allure-Report.pdf"^
-      "file:///%CD%/target/allure-report
-      /index.html"
+      --allow-file-access-from-files
+      --user-data-dir="%WORKSPACE%\\chrome-profile"^
+      --print-to-pdf=%WORKSPACE%\\target\\Allure.Report.pdf"^
+      "file:///%WORKSPACE%/target/allure-report/index.html"
+      echo Checking PDF...
+      dir target\\Allure-Report.pdf
       '''
     }
   }
