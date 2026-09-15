@@ -13,8 +13,22 @@ stage('Test Execution'){
   }stage('Generate Allure HTML Report'){
     steps{bat'allure generate target/allure-results -o target/allure-report --clean'}
   }
-    
-}stage('Publish HTML Report'){
+  }
+  stage('Generate Allure PDF'){
+    steps{
+      bat '''
+      "C:\\Program Files\\Google\\Chrome\\Application\\Chrome.exe" ^
+      --headless ^
+      --disable-gpu ^
+      --no-sandbox ^
+      --print-to-pdf="target\\Allure-Report.pdf"^
+      "file:///%CD%/target/allure-report
+      /index.html"
+      '''
+    }
+  }
+      
+}stage('Publish Allure HTML Report'){
   steps{
    
   publishHTML([allowMissing:true,
@@ -50,8 +64,8 @@ post{
       Build Staus :$
       {currentBuild.currentResult}
       Test Excution : completed
-      Allure Report :Attached
-      HTML report: Attached
+      Allure Report :Attached as PDF
+      HTML report: Attached in Jenkins
       Build Log :Attached
 
       Please check the jenkins build for detailed test results.
