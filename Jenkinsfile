@@ -8,7 +8,7 @@
     } 
  
     environment { 
-        ALLURE_RESULTS = 'Allure/allure-results' 
+        ALLURE_RESULTS = 'target/allure-results' 
         ALLURE_REPORT  = 'allure-report' 
         PDF_NAME       = 'Allure-Report.pdf' 
     } 
