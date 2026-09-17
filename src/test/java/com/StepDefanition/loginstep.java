@@ -23,7 +23,7 @@ public class loginstep {
 
 	@When("user click on my account dropdown")
 	public void user_click_on_my_account_dropdown() {
-	    lg.clickdropdownbutton();
+	    lg.clickdropdownbutton(); 
 	}
 
 	@When("user click the login button in dropdown")
