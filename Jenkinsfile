@@ -127,7 +127,7 @@
             echo 'CI/CD execution completed' 
  
             archiveArtifacts( 
-                artifacts: "**/${PDF_NAME}", 
+                artifacts: "**/ Allure-Report.pdf", 
                 allowEmptyArchive: true 
             ) 
  
