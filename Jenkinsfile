@@ -127,7 +127,7 @@
             echo 'CI/CD execution completed' 
  
             archiveArtifacts( 
-                artifacts: "${PDF_NAME}", 
+                artifacts: "**/${PDF_NAME}", 
                 allowEmptyArchive: true 
             ) 
  
@@ -157,7 +157,7 @@ Regards,
  
 Automation Team 
 """, 
-                attachmentsPattern: "${PDF_NAME}", 
+                attachmentsPattern: "**/${PDF_NAME}", 
                 attachLog: true 
             ) 
         } 
